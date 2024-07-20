@@ -7,8 +7,8 @@ const Logo = () => {
       alt="logo"
       style={{
         verticalAlign: "middle",
-        marginLeft: 20, /* adjust the value to your liking */
-        marginRight: 20 /* adjust the value to your liking */
+        marginLeft: 20,
+        display: "inline-block"
       }}
     />
   );
