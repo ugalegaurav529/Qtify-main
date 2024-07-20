@@ -1,17 +1,7 @@
 import logo from "../../assets/Logo.png";
-
+import "./Logo.css";
 const Logo = () => {
-  return (
-    <img
-      src={logo}
-      alt="logo"
-      style={{
-        verticalAlign: "middle",
-        marginLeft: 20,
-        display: "inline-block"
-      }}
-    />
-  );
+  return <img src={logo} alt="logo" className="logo"/>;
 };
 
 export default Logo;
