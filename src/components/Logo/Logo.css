@@ -1,11 +1,13 @@
 .logo-container {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 100px; /* Example height; adjust as needed */
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
 }
 
 .logo {
-    width: 67px;
-    /* Other styles for .logo */
+    max-width: 100%;
+    height: auto;
+    /* Ensure the logo has space to its left */
+    margin-left: 20px; /* Adjust as needed */
 }
