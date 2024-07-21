@@ -6,9 +6,9 @@
 }
 
 
-    .logo {
-        display: inline-block;
-        vertical-align: middle;
-        margin-left: 20px; /* add space to the left */
-      }
+        .logo {
+            margin-left: 32px;
+            cursor: pointer;
+          } /* add space to the left */
+      
 
