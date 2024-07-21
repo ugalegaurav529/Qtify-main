@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; /* Adjust height as needed */
+    height: 100px; 
 }
 
-.logo {
-    max-width: 100%;
-    height: auto;
-    /* Ensure the logo has space to its left */
-    margin-left: 20px; /* Adjust as needed */
-}
+
+    .logo {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px; /* add space to the left */
+      }
+
