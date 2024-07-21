@@ -1,6 +1,9 @@
 .logo
      {
-        vertical-align: middle;
-        margin-left: 20px;
-        display: inline-block;
-      }
+        display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 50x; /* Example height; adjust as needed */
+    margin: auto /* Adjust margin as needed */
+}
+     
