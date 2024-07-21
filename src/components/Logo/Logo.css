@@ -1,9 +1,11 @@
-.logo
-     {
-        display: flex; /* Use flexbox */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 50x; /* Example height; adjust as needed */
-    margin: auto /* Adjust margin as needed */
+.logo-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100px; /* Example height; adjust as needed */
 }
-     
+
+.logo {
+    width: 67px;
+    /* Other styles for .logo */
+}
